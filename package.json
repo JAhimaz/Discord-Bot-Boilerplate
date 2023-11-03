@@ -1,0 +1,18 @@
+{
+  "name": "weed-stats-bot",
+  "description": "A bot that can provide details on different types of substances.",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node deploy-commands.js && nodemon index.js",
+    "lint": "eslint ."
+  }
+}
